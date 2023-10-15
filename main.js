@@ -48,7 +48,6 @@ async function downloadScreenshot(page) {
         });
       });
     } else {
-      console.error(`Failed to download screenshot for ${page.name}: HTTP ${response.status}`);
       throw new Error(`Failed to download screenshot for ${page.name}: HTTP ${response.status}`);
     }
   }
