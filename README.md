@@ -1,4 +1,4 @@
-# Screenshot Capturing and Google Drive Upload
+# Automated screenshot generator
 
 This script captures screenshots of specified webpages and uploads them to Google Drive. It uses the Screenshot Machine API for capturing screenshots and the Google Drive API for uploading.
 
